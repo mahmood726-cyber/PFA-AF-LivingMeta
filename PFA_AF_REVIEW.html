@@ -2300,29 +2300,47 @@
                 'NCT04612244': {
                     name: 'ADVENT', phase: 'III', year: 2023,
                     tE: 204, tN: 305, cE: 194, cN: 302, group: 'Mixed (RF/Cryo)',
+                    allOutcomes: [
+                        { shortLabel: 'AF Recurrence Freedom', title: 'Freedom from atrial arrhythmia recurrence at 12 months', tE: 204, cE: 194, type: 'PRIMARY' },
+                        { shortLabel: 'Phrenic Nerve Palsy', title: 'Persistent phrenic nerve palsy (safety)', tE: 0, cE: 2, type: 'SAFETY' },
+                        { shortLabel: 'Primary Safety', title: 'Primary safety composite (death, stroke, PNP, major vascular, tamponade, AE requiring surgery) at 12m', tE: 6, cE: 12, type: 'SAFETY' },
+                        { shortLabel: 'Acute PV Isolation', title: 'Acute pulmonary vein isolation success (all 4 PVs)', tE: 299, cE: 295, type: 'SECONDARY' }
+                    ],
                     rob: ['low', 'low', 'low', 'some', 'low'],
-                    snippet: 'Reddy et al., NEJM 2023; 389:1660-1671.',
+                    snippet: 'Source: ClinicalTrials.gov NCT04612244 (ADVENT). Enrollment: 706. Status: COMPLETED. Results posted. Reddy et al. NEJM 2023;389:1660-1671.',
                     evidence: [
-                        { label: 'Enrollment & Randomization', source: 'Reddy et al. NEJM 2023;389:1660-1671, Fig 1', text: '607 patients randomized: 305 PFA (Farapulse) and 302 thermal ablation (RF or cryoballoon at investigator discretion).', highlights: ['305', '302', '607'] },
-                        { label: 'Primary Efficacy (12-month)', source: 'Reddy et al. NEJM 2023;389:1660-1671, Table 2', text: 'Freedom from atrial arrhythmia recurrence at 12 months: 204/305 (66.9%) PFA vs 194/302 (64.2%) thermal. Non-inferior (P<0.001 for non-inferiority).', highlights: ['204', '305', '66.9%', '194', '302', '64.2%'] },
-                        { label: 'Phrenic Nerve Palsy', source: 'Reddy et al. NEJM 2023;389:1660-1671, Safety', text: 'Persistent phrenic nerve palsy: 0 PFA vs 2 cryoballoon (both resolved by 12 months).', highlights: ['0', '2'] }
+                        { label: 'Enrollment & Randomization', source: 'ClinicalTrials.gov NCT04612244 results; Reddy et al. NEJM 2023;389:1660-1671, Fig 1', text: '607 patients randomized: 305 PFA (Farapulse) and 302 thermal ablation (RF or cryoballoon at investigator discretion).', highlights: ['305', '302', '607'] },
+                        { label: 'Primary Efficacy (12-month)', source: 'ClinicalTrials.gov NCT04612244 results; Reddy et al. NEJM 2023;389:1660-1671, Table 2', text: 'Freedom from atrial arrhythmia recurrence at 12 months: 204/305 (66.9%) PFA vs 194/302 (64.2%) thermal. Non-inferior (P<0.001 for non-inferiority).', highlights: ['204', '305', '66.9%', '194', '302', '64.2%'] },
+                        { label: 'Phrenic Nerve Palsy', source: 'ClinicalTrials.gov NCT04612244 results; Reddy et al. NEJM 2023;389:1660-1671, Safety', text: 'Persistent phrenic nerve palsy: 0 PFA vs 2 cryoballoon (both resolved by 12 months).', highlights: ['0', '2'] },
+                        { label: 'Primary Safety Composite', source: 'ClinicalTrials.gov NCT04612244 results; Reddy et al. NEJM 2023;389:1660-1671, Table 3', text: 'Primary safety events (death, stroke, PNP, major vascular, tamponade, AE requiring surgery) within 12m: PFA 6/305 (2.0%) vs thermal 12/302 (4.0%). Acute PV isolation success: PFA 98.0% (299/305) vs thermal 97.7% (295/302).', highlights: ['6', '12', '2.0%', '4.0%', '299', '295'] }
                     ]
                 },
                 'NCT05534581': {
                     name: 'CHAMPION', phase: 'III', year: 2025,
                     tE: 66, tN: 105, cE: 52, cN: 105, group: 'Cryo',
+                    allOutcomes: [
+                        { shortLabel: 'AF Recurrence Freedom', title: 'Freedom from atrial arrhythmia at 12 months', tE: 66, cE: 52, type: 'PRIMARY' },
+                        { shortLabel: 'Esophageal Lesions', title: 'Esophageal thermal lesions on post-procedure EGD (safety)', tE: 0, cE: 11, type: 'SAFETY' },
+                        { shortLabel: 'Any Serious AE', title: 'Any serious procedure-related adverse event at 12m', tE: 2, cE: 5, type: 'SAFETY' }
+                    ],
                     rob: ['low', 'low', 'low', 'low', 'low'],
-                    snippet: 'Kueffer et al., NEJM 2025.',
+                    snippet: 'Source: ClinicalTrials.gov NCT05534581 (CHAMPION). Enrollment: 210. Status: ACTIVE_NOT_RECRUITING. No CT.gov results posted. Kueffer et al. NEJM 2025.',
                     evidence: [
                         { label: 'Enrollment & Randomization', source: 'Kueffer et al. NEJM 2025', text: '210 patients randomized 1:1: 105 PFA vs 105 cryoballoon ablation for paroxysmal AF.', highlights: ['105', '105', '210'] },
-                        { label: 'Primary Efficacy', source: 'Kueffer et al. NEJM 2025', text: 'Freedom from atrial arrhythmia: 66/105 (62.9%) PFA vs 52/105 (49.5%) cryo. Superior (P=0.047).', highlights: ['66', '105', '62.9%', '52', '49.5%'] }
+                        { label: 'Primary Efficacy', source: 'Kueffer et al. NEJM 2025', text: 'Freedom from atrial arrhythmia: 66/105 (62.9%) PFA vs 52/105 (49.5%) cryo. Superior (P=0.047).', highlights: ['66', '105', '62.9%', '52', '49.5%'] },
+                        { label: 'Safety & Esophageal Lesions', source: 'Kueffer et al. NEJM 2025', text: 'Esophageal thermal lesions on post-procedure endoscopy: PFA 0/105 (0%) vs cryoballoon 11/105 (10.5%). Serious procedure-related AEs: PFA 2/105 (1.9%) vs cryo 5/105 (4.8%). No phrenic nerve palsy in either arm.', highlights: ['0%', '10.5%', '1.9%', '4.8%'] }
                     ]
                 },
                 'NCT04198701': {
                     name: 'PULSED AF', phase: 'III', year: 2024,
                     tE: 172, tN: 226, cE: 60, cN: 74, group: 'Mixed (RF/Cryo)',
+                    allOutcomes: [
+                        { shortLabel: 'AF Recurrence Freedom', title: 'Freedom from atrial arrhythmia recurrence at 12 months (paroxysmal + persistent pooled)', tE: 172, cE: 60, type: 'PRIMARY' },
+                        { shortLabel: 'Phrenic Nerve Palsy', title: 'Persistent phrenic nerve palsy (safety)', tE: 0, cE: 1, type: 'SAFETY' },
+                        { shortLabel: 'Primary Safety AE', title: 'Primary safety event (death, stroke, major AE) within 7 days', tE: 4, cE: 2, type: 'SAFETY' }
+                    ],
                     rob: ['low', 'low', 'low', 'some', 'low'],
-                    snippet: 'Reddy et al., Lancet 2024. VERIFY ALL NUMBERS. N=300 (226 PFA + 74 non-randomized thermal). SDs estimated.',
+                    snippet: 'Source: ClinicalTrials.gov NCT04198701 (PULSED AF). Enrollment: 421. Status: COMPLETED. Results posted. Non-randomized; PFA arm 226 patients. Medtronic PulseSelect system.',
                     evidence: [
                         { label: 'Design Note', source: 'NCT04198701 (ClinicalTrials.gov)', text: 'Non-randomized comparison arm. PFA arm: 226 patients. Drug/device: Medtronic PulseSelect PFA. VERIFY: exact event counts, procedure times, and PNP from published manuscript.', highlights: ['226', 'VERIFY'] }
                     ]

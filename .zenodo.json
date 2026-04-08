@@ -1,0 +1,19 @@
+{
+  "title": "RapidMeta Cardiology - PFA in AF Living Meta-Analysis",
+  "description": "Zenodo metadata stub for the pulse field ablation in atrial fibrillation living meta-analysis release.",
+  "upload_type": "software",
+  "access_right": "open",
+  "license": "MIT",
+  "creators": [
+    {
+      "name": "Ahmad, Mahmood"
+    }
+  ],
+  "keywords": [
+    "living meta-analysis",
+    "cardiology",
+    "atrial fibrillation",
+    "pulse field ablation"
+  ],
+  "notes": "Create a tagged release before minting the Zenodo DOI for the archival snapshot."
+}

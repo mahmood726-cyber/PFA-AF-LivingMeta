@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this project, please cite it as below."
+type: software
+title: "RapidMeta Cardiology - PFA in AF Living Meta-Analysis"
+license: MIT
+abstract: >-
+  Browser-based living meta-analysis workspace for pulse field ablation versus
+  thermal ablation in atrial fibrillation.
+keywords:
+  - living meta-analysis
+  - cardiology
+  - atrial fibrillation
+  - pulse field ablation
+authors:
+  - family-names: Ahmad
+    given-names: Mahmood
+preferred-citation:
+  type: software
+  title: "RapidMeta Cardiology - PFA in AF Living Meta-Analysis"
+  authors:
+    - family-names: Ahmad
+      given-names: Mahmood
+  year: 2026

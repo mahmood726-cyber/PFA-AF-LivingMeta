@@ -1,0 +1,738 @@
+{
+  "studies": [
+    {
+      "nctId": "NCT04612244",
+      "title": "ADVENT Pivotal RCT",
+      "status": "COMPLETED",
+      "phase": [
+        "PHASE3"
+      ],
+      "source": "Manual Audit - Verified Data"
+    },
+    {
+      "nctId": "NCT05534581",
+      "title": "SINGLE SHOT CHAMPION RCT",
+      "status": "COMPLETED",
+      "phase": [
+        "PHASE3"
+      ],
+      "source": "Manual Audit - Verified Data"
+    },
+    {
+      "nctId": "NCT06510556",
+      "title": "Feasibility Study of the FARAFLEX Mapping and PFA System",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT07035288",
+      "title": "PulseSelect Based Pulmonary Vein Isolation and Ablation in Patients With Atrial Fibrillation",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT03700372",
+      "title": "IMPACT: A Safety and Feasibility Study of the IOWA Approach Cardiac Ablation System",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT07119528",
+      "title": "Application-Based Integrated Care in Patients After Pulse Field Ablation",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT07036965",
+      "title": "Comparison of Different Pulsed Field Ablation Catheters in Atrial Fibrillation",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT06232798",
+      "title": "A Dual Energy Catheter (PFA and RFA) and a PFA Catheter for the Treatment of PeAF",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT05552963",
+      "title": "A Study of Multi-electrode Circular Irreversible Electroporation (IRE) Catheter and Multi-Channel IRE Generator in Paroxysmal Atrial Fibrillation (AF)",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT06876896",
+      "title": "Intra-abdominal Pressure (IAP) During PFA Treatment of A-fib/ A-Flutter",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT06526546",
+      "title": "ADVENT Trial Long Term Outcomes Evaluating Atrial Fibrillation Progression Study",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT05823818",
+      "title": "EUropean Real World Outcomes With Pulsed Field AblatiOn",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT06808217",
+      "title": "A Registry on the FARAVIEW Technology of the OPAL HDx Mapping System When Used With the FARAWAVE NAV Ablation Catheter in the Treatment of Atrial Fibrillation",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT06861673",
+      "title": "COCONUT Study Concomitant PVI and LAAC",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT05432024",
+      "title": "Evaluation of Ablation Lesions Using Cardiovascular Magnetic Resonance Imaging",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT06647485",
+      "title": "Evaluation of the Impact of Pulsed Field Ablation on Autonomic Nervous System Modulation in Paroxysmal Atrial Fibrillation",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT07095959",
+      "title": "Marshall Vein Ethanol Infusion in Addition to Pulsed Electric Field Ablation Versus Pulsed Electric Field Ablation Alone for Paroxysmal Atrial Fibrillation",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT05501873",
+      "title": "Real World Data Collection in Subjects Treated With the FARAPULSE Pulsed Field Ablation System",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT07301190",
+      "title": "FIH Study of PFLotus in Persistent Atrial Fibrillation",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT06700226",
+      "title": "AblaView® Unipolar PFA OCR-guided Feasibility Study - First in Man",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT04474054",
+      "title": "A Single Arm Pilot Study of Pulsed Field Ablation in the Treatment of Paroxysmal Atrial Fibrillation",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT06014996",
+      "title": "InsightPFA Trial of the LotosPFA Catheter",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT06014814",
+      "title": "Feasibility of Pulsed Field Ablation Under Mild Conscious Sedation",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT07453940",
+      "title": "Left Atrial Appendage Closure With Versus Without Pulsed Field Ablation in Atrial Fibrillation Patients With Mild Symptoms and High Stroke Risk",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT06056557",
+      "title": "Versatility of a Circular Multielectrode Catheter in the Individualized Recognition & Treatment of Atrial Fibrillation and Related Arrhythmias Using Pulsed Field Energy",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT07227532",
+      "title": "A Study Assessing Long-Term Safety and Effectiveness in Treatment Management of Atrial Fibrillation With VARIPULSE Catheter System",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT07106970",
+      "title": "PVI Alone vs PVI and Linear Ablation for Persistent Atrial Fibrillation (PROMPT AF II)",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT07294742",
+      "title": "Using a Novel Balloon-shaped Large-Focal Pulsed Field Ablation Catheter in Persistent Atrial Fibrillation",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT05462145",
+      "title": "Safety and Effectiveness of the Globe® Pulsed Field System for Treating Patients With Symptomatic Paroxysmal or Persistent Atrial Fibrillation",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT06199180",
+      "title": "Pulsed Field Ablation Versus Conventional Radiofrequency Catheter Ablation for Repeat PVI in Patients With Paroxysmal AF",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT05113056",
+      "title": "AcQForce Pulsed Field Ablation-CE",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT06877156",
+      "title": "Local Potential Measurement In PFA: A Pilot Study",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT05159492",
+      "title": "Ground-Breaking Electroporation-based Intervention for PAROXysmal Atrial Fibrillation Treatment (BEAT PAROX-AF)",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT06656884",
+      "title": "FARAPULSE Workflow Assessment Registry",
+      "status": "ACTIVE_NOT_RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT03593486",
+      "title": "Low-Level EMF Stimulation for Paroxysmal Atrial Fibrillation",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT05114954",
+      "title": "Evaluation of the Safety and Efficacy of the CardioPulseTM PuLsed fiEld Ablation SystEm in Patients With Paroxysmal Atrial Fibrillation (PLEASE-AF Study)",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT05493852",
+      "title": "A RWS of the FARAPULSE in A Chinese Population With PAF",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT05272852",
+      "title": "The FARAPULSE PersAFOne III Trial for the Treatment of Persistent Atrial Fibrillation",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT06125925",
+      "title": "Catheter Ablation in Atrial Fibrillation Patients With HFpEF (STABLE-SR IV Trial)",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT07281521",
+      "title": "Ablation With the PFA System With a Large-Area Focal Catheter for the Treatment of Persistent Atrial Fibrillation",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT07389434",
+      "title": "Feasibility, Safety, Cost-effectiveness, and Environmental Impact of Reprocessed Ablation Catheters in PVI",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT07459387",
+      "title": "REal-world Valued Outcomes of a noveL Balloon-in-basket pUlsed Field ablaTION Catheter for Atrial Fibrillation RegistrY",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT06560047",
+      "title": "Danish Evaluation of Early Catheter Ablation for Atrial Fibrillation in Patients With Heart Failure",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT05790707",
+      "title": "EfFect of Ablation of Persistent AtriaL Fibrillation on COgNitive Function in Individuals With Mild Cognitive Impairment",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT05752487",
+      "title": "A Study For Treatment Of Paroxysmal Atrial Fibrillation (PAF) With The THERMOCOOL SMARTTOUCH SF Catheter and TRUPULSE Generator",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT04524364",
+      "title": "A Study for Treatment of Paroxysmal Atrial Fibrillation (PAF) by Pulsed Field Ablation (PFA) System With Irreversible Electroporation (IRE)",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT05618340",
+      "title": "3-Dimensional Mapping System: The PULSTAR Study",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT06505798",
+      "title": "Cryoballoon/Radiofrequency/Pulsed Field Ablation of Atrial Fibrillation Versus Medical Treatment for Heart",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT06175234",
+      "title": "Feasibility Study on the FARAVIEW Technology",
+      "status": "COMPLETED",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT07187115",
+      "title": "A Global Study Comparing Pulsed Field Ablation With Electrographic Flow Mapping Versus Posterior Wall Ablation for Persistent Atrial Fibrillation",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT07064616",
+      "title": "Pulsed Field Ablation vs. Cryoballoon Ablation in Patients With Persistent Atrial Fibrillation",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    },
+    {
+      "nctId": "NCT07171463",
+      "title": "Pulsed Field Ablation With Concomitant Radiofrequency Cardioneuroablation in Patients With Paroxysmal Atrial Fibrillation",
+      "status": "RECRUITING",
+      "phase": [],
+      "source": "CT.gov auto-extraction"
+    }
+  ],
+  "screening": [
+    {
+      "nctId": "NCT04612244",
+      "decision": "INCLUDE",
+      "conflict": false,
+      "notes": "Verified RCT data from 2023/2026 reports."
+    },
+    {
+      "nctId": "NCT05534581",
+      "decision": "INCLUDE",
+      "conflict": false,
+      "notes": "Verified RCT data from NEJM 2025."
+    },
+    {
+      "nctId": "NCT06510556",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: observational/registry/feasibility"
+    },
+    {
+      "nctId": "NCT07035288",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: no PFA evidence"
+    },
+    {
+      "nctId": "NCT03700372",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: observational/registry/feasibility"
+    },
+    {
+      "nctId": "NCT07119528",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: no PFA evidence"
+    },
+    {
+      "nctId": "NCT07036965",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned with partial comparator or RCT evidence"
+    },
+    {
+      "nctId": "NCT06232798",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned with partial comparator or RCT evidence"
+    },
+    {
+      "nctId": "NCT05552963",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned but no clear RCT comparator"
+    },
+    {
+      "nctId": "NCT06876896",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned but no clear RCT comparator"
+    },
+    {
+      "nctId": "NCT06526546",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: no PFA evidence"
+    },
+    {
+      "nctId": "NCT05823818",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned but no clear RCT comparator"
+    },
+    {
+      "nctId": "NCT06808217",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: observational/registry/feasibility"
+    },
+    {
+      "nctId": "NCT06861673",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: no PFA evidence"
+    },
+    {
+      "nctId": "NCT05432024",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: no PFA evidence"
+    },
+    {
+      "nctId": "NCT06647485",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned but no clear RCT comparator"
+    },
+    {
+      "nctId": "NCT07095959",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: no PFA evidence"
+    },
+    {
+      "nctId": "NCT05501873",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned but no clear RCT comparator"
+    },
+    {
+      "nctId": "NCT07301190",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: no PFA evidence"
+    },
+    {
+      "nctId": "NCT06700226",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: observational/registry/feasibility"
+    },
+    {
+      "nctId": "NCT04474054",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: observational/registry/feasibility"
+    },
+    {
+      "nctId": "NCT06014996",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned but no clear RCT comparator"
+    },
+    {
+      "nctId": "NCT06014814",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: observational/registry/feasibility"
+    },
+    {
+      "nctId": "NCT07453940",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned with partial comparator or RCT evidence"
+    },
+    {
+      "nctId": "NCT06056557",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned but no clear RCT comparator"
+    },
+    {
+      "nctId": "NCT07227532",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: no PFA evidence"
+    },
+    {
+      "nctId": "NCT07106970",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: no PFA evidence"
+    },
+    {
+      "nctId": "NCT07294742",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned but no clear RCT comparator"
+    },
+    {
+      "nctId": "NCT05462145",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned but no clear RCT comparator"
+    },
+    {
+      "nctId": "NCT06199180",
+      "decision": "INCLUDE",
+      "conflict": false,
+      "notes": "Auto-included by regex: PFA vs thermal RCT"
+    },
+    {
+      "nctId": "NCT05113056",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned but no clear RCT comparator"
+    },
+    {
+      "nctId": "NCT06877156",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: observational/registry/feasibility"
+    },
+    {
+      "nctId": "NCT05159492",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned but no clear RCT comparator"
+    },
+    {
+      "nctId": "NCT06656884",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: observational/registry/feasibility"
+    },
+    {
+      "nctId": "NCT03593486",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: no PFA evidence"
+    },
+    {
+      "nctId": "NCT05114954",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned but no clear RCT comparator"
+    },
+    {
+      "nctId": "NCT05493852",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: no PFA evidence"
+    },
+    {
+      "nctId": "NCT05272852",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: no PFA evidence"
+    },
+    {
+      "nctId": "NCT06125925",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: no PFA evidence"
+    },
+    {
+      "nctId": "NCT07281521",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned but no clear RCT comparator"
+    },
+    {
+      "nctId": "NCT07389434",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: observational/registry/feasibility"
+    },
+    {
+      "nctId": "NCT07459387",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: observational/registry/feasibility"
+    },
+    {
+      "nctId": "NCT06560047",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: no PFA evidence"
+    },
+    {
+      "nctId": "NCT05790707",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: no PFA evidence"
+    },
+    {
+      "nctId": "NCT05752487",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: no PFA evidence"
+    },
+    {
+      "nctId": "NCT04524364",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned but no clear RCT comparator"
+    },
+    {
+      "nctId": "NCT05618340",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: no PFA evidence"
+    },
+    {
+      "nctId": "NCT06505798",
+      "decision": "INCLUDE",
+      "conflict": false,
+      "notes": "Auto-included by regex: PFA vs thermal RCT"
+    },
+    {
+      "nctId": "NCT06175234",
+      "decision": "EXCLUDE",
+      "conflict": false,
+      "notes": "Excluded by regex: observational/registry/feasibility"
+    },
+    {
+      "nctId": "NCT07187115",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned with partial comparator or RCT evidence"
+    },
+    {
+      "nctId": "NCT07064616",
+      "decision": "INCLUDE",
+      "conflict": false,
+      "notes": "Auto-included by regex: PFA vs thermal RCT"
+    },
+    {
+      "nctId": "NCT07171463",
+      "decision": "PENDING",
+      "conflict": true,
+      "notes": "PFA mentioned with partial comparator or RCT evidence"
+    }
+  ],
+  "extraction": [
+    {
+      "nctId": "NCT04612244",
+      "n_pfa": null,
+      "e_pfa": null,
+      "n_thermal": null,
+      "e_thermal": null,
+      "verified": false,
+      "last_auto_extract": "2026-04-03",
+      "notes": "Extraction shell created during CT.gov sync. Manual event extraction is still required."
+    },
+    {
+      "nctId": "NCT05534581",
+      "n_pfa": null,
+      "e_pfa": null,
+      "n_thermal": null,
+      "e_thermal": null,
+      "verified": false,
+      "last_auto_extract": "2026-04-03",
+      "notes": "Extraction shell created during CT.gov sync. Manual event extraction is still required."
+    },
+    {
+      "nctId": "NCT06199180",
+      "n_pfa": null,
+      "e_pfa": null,
+      "n_thermal": null,
+      "e_thermal": null,
+      "verified": false,
+      "last_auto_extract": "2026-04-03",
+      "notes": "Extraction shell created during CT.gov sync. Manual event extraction is still required."
+    },
+    {
+      "nctId": "NCT06505798",
+      "n_pfa": null,
+      "e_pfa": null,
+      "n_thermal": null,
+      "e_thermal": null,
+      "verified": false,
+      "last_auto_extract": "2026-04-03",
+      "notes": "Extraction shell created during CT.gov sync. Manual event extraction is still required."
+    },
+    {
+      "nctId": "NCT07064616",
+      "n_pfa": null,
+      "e_pfa": null,
+      "n_thermal": null,
+      "e_thermal": null,
+      "verified": false,
+      "last_auto_extract": "2026-04-03",
+      "notes": "Extraction shell created during CT.gov sync. Manual event extraction is still required."
+    }
+  ]
+}

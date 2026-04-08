@@ -1,0 +1,15 @@
+__pycache__/
+.pytest_cache/
+.venv/
+venv/
+node_modules/
+dist/
+coverage/
+*.log
+*.pyc
+.Rhistory
+.RData
+Thumbs.db
+.DS_Store
+.local_server.pid
+release/

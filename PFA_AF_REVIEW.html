@@ -807,15 +807,15 @@
                     </div>
                     <div id="manual-form-body" class="hidden mt-3 glass p-6 rounded-2xl border border-slate-800">
                         <div class="manual-form-grid">
-                            <div><label>Study Name *</label><input id="mf-name" type="text" aria-label="e.g. FIDELIO-DKD" placeholder="e.g. FIDELIO-DKD"></div>
-                            <div><label>Year</label><input id="mf-year" type="number" aria-label="2024" placeholder="2024" min="1990" max="2030"></div>
-                            <div><label>Phase</label><select id="mf-phase"><option value="III">Phase III</option><option value="IV">Phase IV</option></select></div>
-                            <div><label>Indication</label><select id="mf-indication"><option value="CKD">CKD</option><option value="Heart Failure">Heart Failure</option><option value="Other">Other</option></select></div>
-                            <div><label>Events (Tx) *</label><input id="mf-te" type="number" min="0" aria-label="0" placeholder="0"></div>
-                            <div><label>N (Tx) *</label><input id="mf-tn" type="number" min="1" aria-label="0" placeholder="0"></div>
-                            <div><label>Events (Ctrl) *</label><input id="mf-ce" type="number" min="0" aria-label="0" placeholder="0"></div>
-                            <div><label>N (Ctrl) *</label><input id="mf-cn" type="number" min="1" aria-label="0" placeholder="0"></div>
-                            <div class="col-span-full"><label>Source / Reference</label><input id="mf-source" type="text" aria-label="e.g. NEJM 2024;391:1234-45" placeholder="e.g. NEJM 2024;391:1234-45"></div>
+                            <div><label for="mf-name">Study Name *</label><input id="mf-name" type="text" aria-label="e.g. FIDELIO-DKD" placeholder="e.g. FIDELIO-DKD"></div>
+                            <div><label for="mf-year">Year</label><input id="mf-year" type="number" aria-label="2024" placeholder="2024" min="1990" max="2030"></div>
+                            <div><label for="mf-phase">Phase</label><select id="mf-phase"><option value="III">Phase III</option><option value="IV">Phase IV</option></select></div>
+                            <div><label for="mf-indication">Indication</label><select id="mf-indication"><option value="CKD">CKD</option><option value="Heart Failure">Heart Failure</option><option value="Other">Other</option></select></div>
+                            <div><label for="mf-te">Events (Tx) *</label><input id="mf-te" type="number" min="0" aria-label="0" placeholder="0"></div>
+                            <div><label for="mf-tn">N (Tx) *</label><input id="mf-tn" type="number" min="1" aria-label="0" placeholder="0"></div>
+                            <div><label for="mf-ce">Events (Ctrl) *</label><input id="mf-ce" type="number" min="0" aria-label="0" placeholder="0"></div>
+                            <div><label for="mf-cn">N (Ctrl) *</label><input id="mf-cn" type="number" min="1" aria-label="0" placeholder="0"></div>
+                            <div class="col-span-full"><label for="mf-source">Source / Reference</label><input id="mf-source" type="text" aria-label="e.g. NEJM 2024;391:1234-45" placeholder="e.g. NEJM 2024;391:1234-45"></div>
                         </div>
                         <div class="flex justify-end mt-4">
                             <button onclick="ExtractEngine.addManualStudy()" class="bg-blue-600 hover:bg-blue-500 text-white px-8 py-2.5 rounded-xl text-xs font-bold shadow-lg transition-all"><i class="fa-solid fa-plus mr-2"></i>Add Study</button>

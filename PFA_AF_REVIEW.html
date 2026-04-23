@@ -457,7 +457,7 @@
                 <i class="fa-solid fa-circle-half-stroke"></i>
             </button>
             <div class="h-6 w-px bg-slate-800"></div>
-            <input id="reviewer-id-input" type="text" maxlength="24" onchange="RapidMeta.setReviewerId(this.value)" placeholder="Reviewer ID" class="w-28 bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[10px] font-bold text-slate-200 outline-none uppercase tracking-wider" title="Set your reviewer identifier (initials or name)">
+            <input id="reviewer-id-input" type="text" maxlength="24" onchange="RapidMeta.setReviewerId(this.value)" aria-label="Reviewer ID" placeholder="Reviewer ID" class="w-28 bg-slate-900 border border-slate-700 rounded-lg px-2 py-1 text-[10px] font-bold text-slate-200 outline-none uppercase tracking-wider" title="Set your reviewer identifier (initials or name)">
             <button onclick="RapidMeta.toggleReviewLock()" class="text-slate-400 hover:text-white transition-colors" title="Claim or release reviewer lock" aria-label="Toggle reviewer lock">
                 <i class="fa-solid fa-lock"></i>
             </button>
@@ -807,15 +807,15 @@
                     </div>
                     <div id="manual-form-body" class="hidden mt-3 glass p-6 rounded-2xl border border-slate-800">
                         <div class="manual-form-grid">
-                            <div><label>Study Name *</label><input id="mf-name" type="text" placeholder="e.g. FIDELIO-DKD"></div>
-                            <div><label>Year</label><input id="mf-year" type="number" placeholder="2024" min="1990" max="2030"></div>
+                            <div><label>Study Name *</label><input id="mf-name" type="text" aria-label="e.g. FIDELIO-DKD" placeholder="e.g. FIDELIO-DKD"></div>
+                            <div><label>Year</label><input id="mf-year" type="number" aria-label="2024" placeholder="2024" min="1990" max="2030"></div>
                             <div><label>Phase</label><select id="mf-phase"><option value="III">Phase III</option><option value="IV">Phase IV</option></select></div>
                             <div><label>Indication</label><select id="mf-indication"><option value="CKD">CKD</option><option value="Heart Failure">Heart Failure</option><option value="Other">Other</option></select></div>
-                            <div><label>Events (Tx) *</label><input id="mf-te" type="number" min="0" placeholder="0"></div>
-                            <div><label>N (Tx) *</label><input id="mf-tn" type="number" min="1" placeholder="0"></div>
-                            <div><label>Events (Ctrl) *</label><input id="mf-ce" type="number" min="0" placeholder="0"></div>
-                            <div><label>N (Ctrl) *</label><input id="mf-cn" type="number" min="1" placeholder="0"></div>
-                            <div class="col-span-full"><label>Source / Reference</label><input id="mf-source" type="text" placeholder="e.g. NEJM 2024;391:1234-45"></div>
+                            <div><label>Events (Tx) *</label><input id="mf-te" type="number" min="0" aria-label="0" placeholder="0"></div>
+                            <div><label>N (Tx) *</label><input id="mf-tn" type="number" min="1" aria-label="0" placeholder="0"></div>
+                            <div><label>Events (Ctrl) *</label><input id="mf-ce" type="number" min="0" aria-label="0" placeholder="0"></div>
+                            <div><label>N (Ctrl) *</label><input id="mf-cn" type="number" min="1" aria-label="0" placeholder="0"></div>
+                            <div class="col-span-full"><label>Source / Reference</label><input id="mf-source" type="text" aria-label="e.g. NEJM 2024;391:1234-45" placeholder="e.g. NEJM 2024;391:1234-45"></div>
                         </div>
                         <div class="flex justify-end mt-4">
                             <button onclick="ExtractEngine.addManualStudy()" class="bg-blue-600 hover:bg-blue-500 text-white px-8 py-2.5 rounded-xl text-xs font-bold shadow-lg transition-all"><i class="fa-solid fa-plus mr-2"></i>Add Study</button>
@@ -5545,7 +5545,7 @@
                             <div class="text-[10px] text-slate-500">Active reviewer: <span class="font-mono text-slate-300">${escapeHtml(String(RapidMeta.state.reviewerId ?? '--') || '--')}</span></div>
                         </div>
                         <div class="text-xs">${reviewState}</div>
-                        <textarea rows="2" oninput="ScreenEngine.setScreenReviewNote(this.value)" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-200 outline-none" placeholder="Add screening rationale note (shared with second reviewer)">${escapeHtml(String(sr.note ?? ''))}</textarea>
+                        <textarea rows="2" oninput="ScreenEngine.setScreenReviewNote(this.value)" class="w-full bg-slate-900 border border-slate-700 rounded-lg px-3 py-2 text-xs text-slate-200 outline-none" aria-label="Add screening rationale note (shared with second reviewer)" placeholder="Add screening rationale note (shared with second reviewer)">${escapeHtml(String(sr.note ?? ''))}</textarea>
                         <div class="flex flex-wrap gap-2">
                             <button type="button" class="extract-action-btn success" onclick="ScreenEngine.confirmCurrentDecision()"><i class="fa-solid fa-user-check mr-1"></i>Confirm as 2nd Reviewer</button>
                             <button type="button" class="extract-action-btn" onclick="ScreenEngine.clearCurrentDecision()"><i class="fa-solid fa-rotate-left mr-1"></i>Clear Proposal</button>
@@ -7952,7 +7952,7 @@
                                     ${endpointOpts.html}
                                 </select>
                                 <label class="text-[11px] text-slate-300 flex items-center gap-2 px-2 py-2 border border-slate-700 rounded-lg">
-                                    <input type="checkbox" ${d?.reviewerSourceChecked ? 'checked' : ''} onchange="ExtractEngine.setReviewerSourceChecked('${trialIdArg}', this.checked)">
+                                    <input type="checkbox" ${d?.reviewerSourceChecked ? 'checked' : ''} onchange="ExtractEngine.setReviewerSourceChecked('${trialIdArg}', this.checked)" aria-label="I verified this row in the source table">
                                     I verified this row in the source table
                                 </label>
                             </div>
@@ -7961,10 +7961,10 @@
                             <div class="text-[10px] font-bold uppercase tracking-widest text-red-300 mb-1"><i class="fa-solid fa-ban mr-1"></i>Population Mismatch Unresolved</div>
                             <div class="text-[11px] text-slate-300 mb-2">Extracted denominator ${Number(mismatch.extractedN).toLocaleString()} vs protocol enrollment ${Number(mismatch.enrolledN).toLocaleString()}. Resolve before confirmation.</div>
                             <label class="text-[11px] text-slate-300 flex items-center gap-2 mb-2">
-                                <input type="checkbox" ${d?.reconcileConfirmed ? 'checked' : ''} onchange="ExtractEngine.setReconcileConfirmed('${trialIdArg}', this.checked)">
+                                <input type="checkbox" ${d?.reconcileConfirmed ? 'checked' : ''} onchange="ExtractEngine.setReconcileConfirmed('${trialIdArg}', this.checked)" aria-label="I reviewed and accept this denominator difference for the selected endpoint">
                                 I reviewed and accept this denominator difference for the selected endpoint
                             </label>
-                            <textarea rows="2" oninput="ExtractEngine.setReconcileNotes('${trialIdArg}', this.value)" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-2 py-2 text-xs text-slate-200" placeholder="Add reconciliation note (required)">${escapeHtml(String(d?.reconcileNotes ?? ''))}</textarea>
+                            <textarea rows="2" oninput="ExtractEngine.setReconcileNotes('${trialIdArg}', this.value)" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-2 py-2 text-xs text-slate-200" aria-label="Add reconciliation note (required)" placeholder="Add reconciliation note (required)">${escapeHtml(String(d?.reconcileNotes ?? ''))}</textarea>
                         </div>` : '';
                     const dualSignoffStrip = needsReview ? `<div class="mt-3 p-3 rounded-xl border border-sky-500/40 bg-sky-500/10">
                             <div class="text-[10px] font-bold uppercase tracking-widest text-sky-300 mb-2"><i class="fa-solid fa-people-arrows-left-right mr-1"></i>Dual Reviewer Extraction Sign-off</div>
@@ -7974,7 +7974,7 @@
                             </div>
                             <div class="text-[11px] text-slate-300 mb-2">Reviewer 1: <span class="font-mono">${escapeHtml(String(signoff?.reviewer1 ?? '--'))}</span> &middot; Reviewer 2: <span class="font-mono">${escapeHtml(String(signoff?.reviewer2 ?? '--'))}</span></div>
                             <div class="text-[10px] text-slate-500 mb-2">Seal 1: <span class="font-mono">${escapeHtml(signSeal1 || '--')}</span> &middot; Seal 2: <span class="font-mono">${escapeHtml(signSeal2 || '--')}</span></div>
-                            <textarea rows="2" oninput="ExtractEngine.setReviewerSignoffNote('${trialIdArg}', this.value)" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-2 py-2 text-xs text-slate-200" placeholder="Shared sign-off note required before confirmation">${escapeHtml(signoffNote)}</textarea>
+                            <textarea rows="2" oninput="ExtractEngine.setReviewerSignoffNote('${trialIdArg}', this.value)" class="w-full bg-slate-950 border border-slate-700 rounded-lg px-2 py-2 text-xs text-slate-200" aria-label="Shared sign-off note required before confirmation" placeholder="Shared sign-off note required before confirmation">${escapeHtml(signoffNote)}</textarea>
                             ${!signoffNoteDone ? '<div class="text-[10px] text-amber-300 mt-1"><i class="fa-solid fa-pen mr-1"></i>Add sign-off note to enable confirmation.</div>' : ''}
                         </div>` : '';
                     const reviewNotice = needsReview

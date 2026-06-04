@@ -1,0 +1,8 @@
+{
+  "drug": "PFA AF",
+  "drug_lower": "pfa af",
+  "condition": "Adults with paroxysmal or persistent AF",
+  "slug": "pfa_af",
+  "source_repo": "C:\\Projects\\PFA-AF-LivingMeta",
+  "source_html": "PFA_AF_REVIEW.html"
+}

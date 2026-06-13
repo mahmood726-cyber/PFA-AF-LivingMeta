@@ -44,5 +44,29 @@ def main() -> int:
     return 0
 
 
+def test_smoke():
+    """Pytest-discoverable wrapper so `pytest -q` actually runs the smoke checks."""
+    assert main() == 0
+
+
+def test_ct_gov_engine_imports():
+    """The CT.gov engine module imports and its classifier behaves as documented."""
+    root = Path(__file__).resolve().parents[1]
+    sys.path.insert(0, str(root))
+    from ct_gov_engine import CTGovEngine
+
+    decision, _conflict, _notes = CTGovEngine.classify_study(
+        CTGovEngine.__new__(CTGovEngine),
+        "Randomized comparison of pulsed field ablation versus cryoablation",
+    )
+    assert decision == "INCLUDE"
+
+    decision, _conflict, _notes = CTGovEngine.classify_study(
+        CTGovEngine.__new__(CTGovEngine),
+        "Observational registry of catheter ablation",
+    )
+    assert decision == "EXCLUDE"
+
+
 if __name__ == "__main__":
     raise SystemExit(main())

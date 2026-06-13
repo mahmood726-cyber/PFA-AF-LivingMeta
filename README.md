@@ -6,7 +6,7 @@ Browser-based living meta-analysis workspace for pulse field ablation versus the
 
 1. Run `powershell -ExecutionPolicy Bypass -File .\open_app.ps1` to start the local launcher and open the app.
 2. Review the local source assets in `trials_db.json`, `ct_gov_engine.py`, and `audit_meta.R`.
-3. Run `python tests/test_smoke.py` for a quick repository smoke check.
+3. Run `python -m pytest -q` (or `python tests/test_smoke.py`) for a quick repository smoke check.
 
 ## Repository Contents
 
